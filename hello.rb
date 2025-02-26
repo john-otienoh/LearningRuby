@@ -1,0 +1,1 @@
+puts "Hello World\nWrote my first Ruby Program at #{Time.now}"
