@@ -1,37 +1,37 @@
 def c_to_f(c)
     # Convert Celcius to Fahrenheit
     f = (c * 9 / 5) + 32
-    return "#{c} degrees = #{f} Fahrenheit."
+    "#{c} degrees = #{f} Fahrenheit."
 end
 
 def f_to_c(f)
     # Convert Fahrenheit to Celcius
     c = f - 32 * (9 / 5)
-    return "#{f} fahrenheit = #{c} celcius."
+    "#{f} fahrenheit = #{c} celcius."
 end
 
 def c_to_k(c)
     # Convert Celcius to Kelvin
     k = c + 273.15
-    return "#{c} degrees = #{k} kelvins."
+    "#{c} degrees = #{k} kelvins."
 end
 
 def k_to_c(k)
     # Convert Kelvins to Celcius
     c = k - 273.15
-    return "#{k} kelvins = #{f} celcius."
+    "#{k} kelvins = #{f} celcius."
 end
 
 def f_to_k(f)
     # Convert Fahrenheit to Kelvins
     k = (f - 32) + (5 / 9 + 273.15)
-    return "#{k} kelvins = #{f} Fahrenheit."
+    "#{k} kelvins = #{f} Fahrenheit."
 end
 
 def k_to_f(k)
-    # Concert Kelvins to Fahrenheit
+    # Convert Kelvins to Fahrenheit
     f = (k - 273.15) + (9 / 5 + 32)
-    return "#{f} Fahrenheit = #{k} Kelvins."
+    "#{f} Fahrenheit = #{k} Kelvins."
 
 end
 
